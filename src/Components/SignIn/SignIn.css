@@ -1,0 +1,123 @@
+*{
+    font-family: 'Netflix Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
+}*
+
+
+.signin-image{
+    width: 100%;
+    object-fit: cover;
+    height: 100%;
+}
+.dark{
+    position:fixed;
+    padding:0;
+    margin:0;
+
+    top:0;
+    left:0;
+
+    width: 100%;
+    height: 100%;
+    background:rgba(0, 0, 0, 0.5);
+}
+.nav{
+    position: fixed;
+    width: 100%;
+    height: 103px;
+    margin-top: 0px;
+    float: left;
+}
+.logo1{
+    position: fixed;
+    left: 53px;
+    width: 134px;
+    margin-top: 35px;
+}
+.content1-signin{
+    margin: auto;
+    text-align: center;
+    color: white;
+    background:rgba(0, 0, 0, 0.7);
+    border-radius: 5px;
+    position: fixed;
+  bottom: 0;
+  height: 85%;
+}
+
+
+.content1-signin h3{
+    margin-top: 2rem;
+    font-size: 2rem;
+    
+}
+.content1-signin input{
+    border: none;
+    border-radius: 4px;
+    font-size: medium;
+    margin-bottom: 1rem;
+    min-height: 3.5rem;
+    outline-width: 0;
+    padding-left: 35px;
+    width: 77%;
+    background-color: #333;
+}
+.content1-signin button{
+    background-color: red;
+    min-height: 3.5rem;
+    width: 77%;
+    border-radius: 3px;
+    border: none;
+    color: white;
+    font-size: 21px;
+    vertical-align: top;
+}
+.alert-support{
+    width: 60%;
+    height: 15%;
+    z-index: 200;
+    margin: auto;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    position: fixed;
+    vertical-align: bottom;
+    bottom: 0;
+    top: 75%;
+   
+}
+
+
+.alert {
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    text-align: center;
+    width: 70%;
+   
+  }
+
+  .content1-signin ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: rgb(175, 174, 174);
+    opacity: 1; /* Firefox */
+  }
+  
+  .content1-signin :-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: rgb(175, 174, 174);
+
+  }
+  
+  .content1-signin ::-ms-input-placeholder { /* Microsoft Edge */
+    color: rgb(175, 174, 174);
+
+  }
+
+
+  /* NEW SIGNIN */
+
+  .signin-fuction{
+    margin: auto;
+    width: 100px;
+    height: 100px;
+    background-color: blueviolet;
+  }
+
