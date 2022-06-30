@@ -64,8 +64,8 @@ function SignIn() {
 
                         <h3>Sign In</h3>
 
-                        <input className='box' type="input" placeholder='Email' onChange={(e) => setEmail(e.target.value)} />
-                        <input className='box' type="password" placeholder='Password' onChange={(e) => setPassword(e.target.value)} /><br />
+                        <input className='box' type="input" placeholder=' Email' onChange={(e) => setEmail(e.target.value)} />
+                        <input className='box' type="password" placeholder=' Password' onChange={(e) => setPassword(e.target.value)} /><br />
                         <button onClick={handleSubmit} className='SIGNin' >{
                         spinner ? <Spinner animation="border" /> : "Sign In" }</button>
                         <div>

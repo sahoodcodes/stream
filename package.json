@@ -1,6 +1,6 @@
 {
-  "homepage": "https://sahoodcodes.github.io/netflix-clone",
-  "name": "n7",
+  "homepage": "https://sahoodcodes.github.io/netflix",
+  "name": "netflix",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
