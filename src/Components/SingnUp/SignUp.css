@@ -67,9 +67,8 @@ body .content p {
 }
 #signup-title{
     color: #fff;
-    font-size: 6vh;
-    font-weight: 600;
-    margin-bottom: 0;
+    font-size: 5vh;
+    font-weight: bolder; 
 }
 #signup-title-2{
     color: #fff;

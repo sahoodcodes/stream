@@ -49,7 +49,7 @@ function SignUp() {
     className='signup-image'
     alt="background" />
         <div className='dark'>
-            <div className="nav col-12 ">
+            <div className="nav col-12 mb-0 mb-md-5" style={{position:"static"}} >
               
                 <img className='logo-signup' src={logoNetflix} alt="" />
                
@@ -57,9 +57,9 @@ function SignUp() {
                 
             </div>
             
-            <div className="body">
+            <div className="body ">
                 <div className="content col-sm-12 col-md-6">
-                <p id='signup-title' >Unlimited movies, TV <br />
+                <p id='signup-title' >Unlimited movies, TV 
                  shows and more.</p>
                 <p id='signup-title-2'>Watch anywhere. Cancel anytime.</p>
                 <p id='signup-title-3' >Ready to watch? 

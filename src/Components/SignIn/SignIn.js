@@ -42,6 +42,9 @@ function SignIn() {
 
             });
     }
+    const signup = () => {
+        navigate("/")
+    }
 
     return (
 
@@ -72,7 +75,7 @@ function SignIn() {
                             <p id='pp'>Need Help?</p>
                         </div>
                         <div>
-                            <p style={{ display: "inline-block", marginRight: "45px", marginTop: "10px" }}>New to Netflix?</p><a style={{ display: "inline-block", margin: "0px", textDecoration: "none", color: "white", fontWeight: "bolder" }} href="/" >Sign Up Now</a>
+                            <p style={{ display: "inline-block", marginRight: "45px", marginTop: "10px" }}>New to Netflix?</p><a style={{ display: "inline-block", margin: "0px", textDecoration: "none", color: "white", fontWeight: "bolder" }} href="/" onClick={signup} >Sign Up Now</a>
                             <p style={{ display: "inline-block", fontSize: "12px", paddingTop: "10px", paddingLeft: "80px", paddingRight: "80px" }} > This page is protected by Google reCAPTCHA to ensure you're not a bot.</p> <br />
                             <a style={{ display: "inline-block", fontSize: "12px" }} href="https://policies.google.com/privacy">learn more</a>
                         </div>

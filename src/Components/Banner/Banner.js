@@ -40,7 +40,7 @@ function Banner() {
                 <button className='button2'>Play</button>
                 <button className='button2' onClick={handleStore} >My List</button>
             </div>
-            <h1 className='description'>{movie ? movie.overview : ''}</h1>
+            <h1 className='description col-12 col-md-8 '>{movie ? movie.overview : ''}</h1>
         </div>
         <div className="fade12"></div>
     </div>
