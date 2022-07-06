@@ -105,31 +105,22 @@
 }
 .pop_button{
     height: 78px;
-    width: 400px;
     float: left;
     margin-top: 10px;
 }
 .pop_button button{
     background-color: rgb(95, 16, 16);
-    margin-left: 50px;
     height: 45px;
-    width: 125px;
+    width: 8rem;
 }
 .pop_button button:hover{
     background-color: brown;
 }
-#b1{
-    margin-left: 101px;
-    display: inline-block;
-    font-weight: 200;
-    font-size: 0.7rem;
 
+.under-text{
+    display: flex;
+    justify-content: space-evenly;
 }
-#b2{
-    margin-left: 128px;
-    display: inline-block;
-    font-weight: 300;
-    font-size: 0.7rem;
-    
+.under-text h6{
+    font-size: 0.8rem;
 }
-
