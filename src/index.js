@@ -24,8 +24,8 @@ root.render(
   
   <React.StrictMode>
     <FirebaseContext.Provider value={{firebase}}>
-    {/* <BrowserRouter basename="/netflix" > */}
-    <BrowserRouter  >
+     <BrowserRouter basename="/netflix" >
+    {/* <BrowserRouter  > */}
 
       <Routes>
 
