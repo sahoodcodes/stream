@@ -43,7 +43,7 @@ function SignIn() {
             });
     }
     const signup = () => {
-        navigate("netflix/")
+        navigate("/")
     }
 
     return (
