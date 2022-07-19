@@ -2,6 +2,7 @@ import React, {  useState } from 'react'
 import './SignUp.css'
 import { getAuth, createUserWithEmailAndPassword } from "firebase/auth";
 import { useNavigate } from 'react-router-dom';
+import {Link} from 'react-router-dom'
 import { Alert, Spinner } from 'react-bootstrap';
 import logoNetflix from "../../Store/logoNetflix.png"
 import backGround from "../../Store/backGround.jpeg"
@@ -39,10 +40,6 @@ function SignUp() {
       }, 1500);
       });                               
     }
-
-    const signIn = () => {
-      navigate('/signin')
-    }
   return (
     <div className='signup col-12 fluid' >
     <img src={backGround}
@@ -53,7 +50,7 @@ function SignUp() {
               
                 <img className='logo-signup' src={logoNetflix} alt="" />
                
-                 <button type="submit" className='SIGNup' onClick={signIn} >Sign In</button>
+                 <Link type="submit" className='SIGNup' to={"/signin"} >Sign In</Link>
                 
             </div>
             
