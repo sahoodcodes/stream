@@ -40,6 +40,10 @@ function SignUp() {
       }, 1500);
       });                               
     }
+
+    const signIn = () => {
+      navigate('/signin')
+    }
   return (
     <div className='signup col-12 fluid' >
     <img src={backGround}
@@ -50,7 +54,7 @@ function SignUp() {
               
                 <img className='logo-signup' src={logoNetflix} alt="" />
                
-                 <Link type="submit" className='SIGNup' to={"/signin"} >Sign In</Link>
+                 <button type="submit" className='SIGNup' onClick={signIn} >Sign In</button>
                 
             </div>
             
