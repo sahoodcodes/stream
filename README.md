@@ -1,2 +1,2 @@
 
-Visit Netflix Clone App : https://sahoodcodes.github.io/netflix/
+Visit Netflix Clone App : https://sahoodcode.github.io/netflix/
