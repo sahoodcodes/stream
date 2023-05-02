@@ -71,22 +71,18 @@ function RowPost(props) {
             <div className="pop_left col-12 col-md-6">
               <img src={`${imageUrl + Details.backdrop_path}`} className="pop_img col-12" alt="" />
 
-              <div className="pop_button col-12">
-                <div className="d-flex justify-content-around">
+              <div className="pop_button">
+                <div className="pop_button_button">
                   <button>
                     <i class="fa fa-play"></i>
                   </button>
+                  <h6 id="b1">Play</h6>
+                </div>
+                <div className="pop_button_button">
                   <button onClick={handleStore}>
                     {spinner ? <Spinner animation="border" /> : <i class="fa fa-bars"></i>}{' '}
                   </button>
-                </div>
-                <div className="d-flex justify-content-around">
-                  <div className="col-6 under-text">
-                    <h6>Play</h6>
-                  </div>
-                  <div className="col-6 under-text">
-                    <h6>Add to MyList</h6>
-                  </div>
+                  <h6>Add to MyList</h6>
                 </div>
               </div>
             </div>

@@ -79,22 +79,25 @@ function MyList() {
               <img src={`${imageUrl + Details.backdrop_path}`} className="pop_img col-12" alt="" />
 
               <div className="pop_button">
-                <button>
-                  <i class="fa fa-play"></i>
-                </button>
-                <button onClick={handleStore}>
-                  <i class="fa fa-trash"></i>
-                </button>
-                <h6 id="b1">Play</h6>
-                {sure ? (
-                  <h6 id="b2" style={{ marginLeft: '149px' }}>
-                    Delete
-                  </h6>
-                ) : (
-                  <h6 id="b2" style={{ marginLeft: '110px', color: 'red' }}>
-                    Click Again to Conform
-                  </h6>
-                )}
+                <div className="pop_button_button">
+                  {' '}
+                  <button>
+                    <i class="fa fa-play"></i>
+                  </button>{' '}
+                  <h6 id="b1">Play</h6>
+                </div>
+                <div className="pop_button_button">
+                  <button onClick={handleStore}>
+                    <i class="fa fa-trash"></i>
+                  </button>
+                  {sure ? (
+                    <h6 id="b2">Delete</h6>
+                  ) : (
+                    <h6 id="b2" style={{ color: 'red' }}>
+                      Click Again to Conform
+                    </h6>
+                  )}
+                </div>
               </div>
             </div>
 

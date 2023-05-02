@@ -45,13 +45,15 @@
 }
 .pop {
   min-height: 10rem;
-  position: absolute;
-  margin: auto;
   background-color: #111;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .pop_left {
   min-height: 10rem;
-  float: left;
+  display: flex;
+  flex-direction: column;
 }
 .pop_info {
   min-height: 10rem;
@@ -93,8 +95,13 @@
 }
 .pop_button {
   height: 78px;
-  float: left;
   margin-top: 10px;
+  display: flex;
+  justify-content: space-around;
+}
+.pop_button_button {
+  display: flex;
+  flex-direction: column;
 }
 .pop_button button {
   background-color: rgb(95, 16, 16);
