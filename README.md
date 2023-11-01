@@ -1,1 +1,1 @@
-Visit Netflix Clone App : https://sahood-dev.github.io/netflix/
+Visit Netflix Clone App : https://sahood-dev.github.io/stream/
